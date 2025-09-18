@@ -4,6 +4,7 @@ Este projeto é o UniBlog, Blog-Universitario!, criado para transformar a forma 
 
 ![United States](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/us.png "United States")</br>
 This project is UniBlog, the University Blog! Created to transform the way students connect, find information, and build new friendships. Our goal is also to eternalize some of the best moments of your academic journey!
+
 # 📒 PLANO DE SOFTWARE
 
 O **Plano de Software** (PS) tem como propósito organizar e orientar o desenvolvimento do projeto, definindo visão, objetivos, escopo, equipe, cronograma e processos a serem seguidos. Ele funciona como guia de referência para garantir alinhamento entre os membros da equipe, rastreabilidade das atividades e evolução estruturada do software ao longo de seu ciclo de vida.
@@ -249,3 +250,4 @@ Detalhar os recursos de hardware e/ou ambiente que serão utilizados para desenv
 Detalhar os recursos de software e/ou ferramentas que serão utilizados para desenvolvimento do projeto.
 
 ---
+
