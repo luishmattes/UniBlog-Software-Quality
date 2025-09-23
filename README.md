@@ -1,4 +1,4 @@
-# University Blog 
+# UniBlog
 ![Brazil](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/br.png "Brazil")</br>
 Este projeto é o UniBlog, Blog-Universitario!, criado para transformar a forma como os estudantes se conectam, buscam informações, e fazem novas amizades. Nosso objetivo também, é poder eternizar alguns dos melhores momentos de sua passagem pela vida academica!
 
@@ -172,15 +172,67 @@ Quem é responsável pelo acompanhamento de prazos e garantia das entregas parci
 
 ## 💻 PROCESSO DE DESENVOLVIMENTO
 
-### Processo ágil
+# Processo Ágil Implementado
 
-<h6 style="color: red;">AULA 08</h6>
+## Objetivo:
+A metodologia ágil adotada para o desenvolvimento do **UniBlog** será o **Kanban**, utilizando a ferramenta **Trello** para gestão das tarefas e acompanhamento do fluxo de trabalho. O **Kanban** é uma abordagem visual e dinâmica, permitindo que o progresso de cada tarefa seja monitorado em tempo real, desde o início do desenvolvimento até a entrega final, com a introdução de novas etapas focadas em **Revisão de Código** e **Fase de Testes**.
 
-Descrever qual é/será o processo ágil implementado e de que maneira ele é/será implementado.
+## Estrutura do Kanban no Trello (Atualizada):
+O processo de trabalho será dividido em **cinco colunas principais** no Trello, refletindo claramente as diferentes fases do desenvolvimento de cada funcionalidade ou tarefa.
 
-### Definição de pronto (DoD)
+### 1. **Backlog (A Fazer)**:
+O **Backlog** conterá todas as tarefas que precisam ser realizadas. Ele será composto por itens como funcionalidades novas a serem implementadas (ex.: **RF01 - Cadastro/Login de Usuário**), melhorias, ajustes de UI/UX, requisitos de segurança e conformidade (como LGPD), e tarefas administrativas.
 
-Explicar quais critérios devem ser atendidos para considerar uma tarefa ou funcionalidade concluída.
+Durante as reuniões de planejamento de sprint, as funcionalidades prioritárias serão selecionadas para o ciclo seguinte e movidas para a coluna **"Em Andamento"**.
+
+### 2. **Em Andamento**:
+As tarefas que estão sendo ativamente trabalhadas pela equipe estarão na coluna **Em Andamento**. Isso inclui o desenvolvimento das funcionalidades, integração com o banco de dados, configurações de segurança e design de interface (UI/UX).
+
+O progresso das tarefas será monitorado em reuniões diárias de stand-up, onde a equipe discutirá bloqueios, o andamento das funcionalidades e ajustes necessários.
+
+### 3. **Revisão de Código**:
+Após a conclusão da implementação inicial de uma tarefa, ela será movida para a coluna **Revisão de Código**. Nessa fase, o código será revisado por outro membro da equipe, com o objetivo de garantir que está de acordo com as boas práticas de desenvolvimento, sem erros, e aderente às normas de estilo e segurança.
+
+As revisões de código serão realizadas de forma colaborativa e incluirão testes de integração para garantir que novas funcionalidades não impactem negativamente outras áreas do sistema. Após a revisão, o código será ajustado conforme necessário.
+
+### 4. **Fase de Testes**:
+A **Fase de Testes** é uma etapa crucial para garantir a qualidade e a funcionalidade do sistema. Nessa fase, o sistema será testado por meio de testes unitários, testes de integração e testes de aceitação (UAT). As funcionalidades como **feed de postagens** (**RF02**), **comentários e interações** (**RF03**), e **gerenciamento de perfil** (**UC06**) serão testadas para garantir que atendem aos requisitos e funcionam conforme esperado.
+
+Testes automatizados serão realizados para garantir que não haja regressões no código e que o sistema se comporte corretamente em diferentes cenários de uso.
+
+Além disso, será possível realizar testes manuais para validar funcionalidades complexas e a experiência do usuário.
+
+### 5. **Concluído**:
+Após a revisão de código e a conclusão da fase de testes, as tarefas serão movidas para a coluna **Concluído**. Isso indica que a tarefa foi totalmente finalizada, validada e está pronta para ser entregue.
+
+As entregas finais serão discutidas com os stakeholders durante as reuniões de revisão de sprint, garantindo que o trabalho realizado esteja de acordo com as expectativas e que todos os requisitos foram atendidos.
+
+---
+
+## Acompanhamento e Garantia de Qualidade
+
+A adição das colunas **Revisão de Código** e **Fase de Testes** aprimora o controle de qualidade durante o processo de desenvolvimento. Ao dividir o fluxo de trabalho em mais etapas, a equipe pode identificar e corrigir problemas de maneira mais rápida e eficaz, garantindo que o **UniBlog** seja entregue com qualidade e sem falhas críticas.
+
+### Revisão de Código:
+As revisões de código são uma prática essencial para melhorar a qualidade do código, identificar problemas de performance, garantir a aderência às melhores práticas e aumentar a colaboração entre os membros da equipe.
+
+### Fase de Testes:
+A fase de testes assegura que a aplicação funciona como esperado em diferentes cenários e que os requisitos do sistema foram cumpridos. A realização de testes automatizados e manuais permite que problemas sejam detectados e corrigidos rapidamente, melhorando a confiabilidade do **UniBlog**.
+
+
+### Definição de Pronto (DoD) – UniBlog
+
+Uma tarefa ou funcionalidade será considerada **pronta** quando atender aos seguintes critérios:
+
+- ✅ **Requisitos atendidos:** A funcionalidade cumpre o que foi especificado nos requisitos e casos de uso.
+- ✅ **Código revisado:** O código foi revisado por outro membro da equipe e está limpo, seguro e padronizado.
+- ✅ **Testada com sucesso:** Passou por testes manuais e/ou automatizados, sem apresentar erros críticos.
+- ✅ **Interface finalizada:** A interface está responsiva e funcional em dispositivos principais.
+- ✅ **Aceita pelo time:** Os critérios de aceitação foram validados por quem solicitou a tarefa.
+- ✅ **Documentada:** A tarefa está descrita e comentada corretamente no Trello.
+
+Somente após esses pontos, a tarefa poderá ser movida para a coluna **Concluído**.
+
 
 ---
 
@@ -234,8 +286,8 @@ Listar riscos reais ou potenciais e ações práticas que serão aplicadas para 
 
 | Risco                        | Probabilidade                | Impacto                       | Ação de mitigação            |
 | ---------------------------- | ---------------------------- | ----------------------------- | ---------------------------- |
-| Risco                        | 🟥Alta / 🟨 Média / 🟩 Baixa | 🟥 Alto / 🟨 Médio / 🟩 Baixo | Ação                         |
-| Bugs críticos não detectados | 🟨 Média                     | 🟥 Alto                       | Revisões de código regulares |
+| Risco                        | 🟥Alta / 🟨 Média / 🟩 Baixa | 🟥 Alto / 🟨 Médio / 🟩 Baixo | Ação                      |
+| Bugs críticos não detectados | 🟨 Média                     | 🟥 Alto                       | Revisões                    |
 
 ---
 
