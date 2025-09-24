@@ -177,32 +177,29 @@ Quem é responsável pelo acompanhamento de prazos e garantia das entregas parci
 ## Objetivo:
 A metodologia ágil adotada para o desenvolvimento do **UniBlog** será o **Kanban**, utilizando a ferramenta **Trello** para gestão das tarefas e acompanhamento do fluxo de trabalho. O **Kanban** é uma abordagem visual e dinâmica, permitindo que o progresso de cada tarefa seja monitorado em tempo real, desde o início do desenvolvimento até a entrega final, com a introdução de novas etapas focadas em **Revisão de Código** e **Fase de Testes**.
 
-## Estrutura do Kanban no Trello (Atualizada):
+## Estrutura do Kanban no Trello:
 O processo de trabalho será dividido em **cinco colunas principais** no Trello, refletindo claramente as diferentes fases do desenvolvimento de cada funcionalidade ou tarefa.
 
-### 1. **Backlog (A Fazer)**:
-O **Backlog** conterá todas as tarefas que precisam ser realizadas. Ele será composto por itens como funcionalidades novas a serem implementadas (ex.: **RF01 - Cadastro/Login de Usuário**), melhorias, ajustes de UI/UX, requisitos de segurança e conformidade (como LGPD), e tarefas administrativas.
+### 1. **Backlog**
+Contém todas as tarefas levantadas a partir do escopo do projeto, incluindo funcionalidades, melhorias, correções, requisitos técnicos e itens de apoio. O backlog será constantemente revisado e priorizado conforme o avanço do projeto. 
 
-Durante as reuniões de planejamento de sprint, as funcionalidades prioritárias serão selecionadas para o ciclo seguinte e movidas para a coluna **"Em Andamento"**.
+### 2. **A Fazer**
+Agrupa as tarefas priorizadas para o próximo ciclo de desenvolvimento (sprint), com foco na entrega da primeira versão funcional do UniBlog (MVP). Essas tarefas são selecionadas durante as reuniões de planejamento e estão aguardando início.
 
-### 2. **Em Andamento**:
-As tarefas que estão sendo ativamente trabalhadas pela equipe estarão na coluna **Em Andamento**. Isso inclui o desenvolvimento das funcionalidades, integração com o banco de dados, configurações de segurança e design de interface (UI/UX).
+### 3. **Em Andamento**:
+As tarefas que estão sendo ativamente trabalhadas pela equipe estarão na coluna **Em Andamento**. Isso inclui o desenvolvimento das funcionalidades, configurações de segurança e design de interface (UI/UX).
 
-O progresso das tarefas será monitorado em reuniões diárias de stand-up, onde a equipe discutirá bloqueios, o andamento das funcionalidades e ajustes necessários.
+O progresso das tarefas será monitorado em reuniões diárias, onde a equipe discutirá bloqueios, o andamento das funcionalidades e ajustes necessários.
 
-### 3. **Revisão de Código**:
-Após a conclusão da implementação inicial de uma tarefa, ela será movida para a coluna **Revisão de Código**. Nessa fase, o código será revisado por outro membro da equipe, com o objetivo de garantir que está de acordo com as boas práticas de desenvolvimento, sem erros, e aderente às normas de estilo e segurança.
+### 4. **Revisão de Código**
+Após a finalização da implementação, as tarefas são movidas para **Revisão de Código**, onde o código é analisado por outro membro da equipe via GitHub. Essa etapa garante conformidade com boas práticas, segurança, padrões de codificação e integração adequada ao sistema. Correções sugeridas devem ser aplicadas antes de avançar.
 
-As revisões de código serão realizadas de forma colaborativa e incluirão testes de integração para garantir que novas funcionalidades não impactem negativamente outras áreas do sistema. Após a revisão, o código será ajustado conforme necessário.
-
-### 4. **Fase de Testes**:
-A **Fase de Testes** é uma etapa crucial para garantir a qualidade e a funcionalidade do sistema. Nessa fase, o sistema será testado por meio de testes unitários, testes de integração e testes de aceitação (UAT). As funcionalidades como **feed de postagens** (**RF02**), **comentários e interações** (**RF03**), e **gerenciamento de perfil** (**UC06**) serão testadas para garantir que atendem aos requisitos e funcionam conforme esperado.
-
-Testes automatizados serão realizados para garantir que não haja regressões no código e que o sistema se comporte corretamente em diferentes cenários de uso.
+### 5. **Fase de Testes**:
+Nessa fase, o sistema será testado por meio de testes unitários, testes de integração e testes de aceitação (UAT). As funcionalidades como **feed de postagens** (**RF02**), **comentários e interações** (**RF03**), e **gerenciamento de perfil** (**UC06**) serão testadas para garantir que atendem aos requisitos e funcionam conforme esperado.
 
 Além disso, será possível realizar testes manuais para validar funcionalidades complexas e a experiência do usuário.
 
-### 5. **Concluído**:
+### 6. **Concluído**:
 Após a revisão de código e a conclusão da fase de testes, as tarefas serão movidas para a coluna **Concluído**. Isso indica que a tarefa foi totalmente finalizada, validada e está pronta para ser entregue.
 
 As entregas finais serão discutidas com os stakeholders durante as reuniões de revisão de sprint, garantindo que o trabalho realizado esteja de acordo com as expectativas e que todos os requisitos foram atendidos.
