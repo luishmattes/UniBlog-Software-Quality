@@ -126,39 +126,70 @@ O UniBlog é uma plataforma digital voltada para a comunidade universitária, qu
 
 ### Papéis da equipe de desenvolvimento
 
-#### Papel (ex.: Desenvolvedor)
+#### 📋 Gerente de Projeto
 
-- **Desempenhado por:** Integrante da equipe
+- **Desempenhado por:** Nayan.
 - **Principais atribuições:**
-  - Atribuição
-  - Atribuição
-  - ...
+  - Definir e acompanhar cronograma, escopo e prazos.
+  - Gerenciar recursos humanos e tecnológicos do projeto.
+  - Facilitar a comunicação entre equipe e os stakeholders.
+  - Identificar riscos e propor planos de mitigação.
+  - Conduzir reuniões de acompanhamento.
 
-### Estrutura de trabalho
+#### 👨‍💻 Desenvolvedor
 
-#### Divisões
+- **Desempenhado por:** Ellen, Luis, Nayan e Sidnei.
+- **Principais atribuições:**
+  - Implementar funcionalidades no frontend de acordo com os requisitos.
+  - Integrar frontend com as APIs fornecidas pelo backend.
+  - Garantir boas práticas de programação e padrões de código.
+  - Corrigir bugs reportados durante os testes.
+  - Documentar o código e manter atualizado o repositório.
 
-Existem subgrupos de trabalho? Se sim, detalhar as responsabilidades específicas desses subgrupos.
+#### 🧪 QA (Quality Analyst)
+
+- **Desempenhado por:**  Ellen e Sidnei.
+- **Principais atribuições:**
+  - Realizar testes manuais para validar requisitos.
+  - Reportar erros, inconsistências ou falhas de usabilidade.
+  - Verificar critérios de aceitação do usuário.
+  - Verificar critérios de aceitação de histórias de usuário.
+
+#### 🔎 Analista (Code Review)
+
+- **Desempenhado por:** Luis.
+- **Principais atribuições:**
+  - Realizar code review de pull requests antes da aprovação.
+  - Identificar e propor melhorias de desempenho, legibilidade e manutenção do código.
+  - Detectar possíveis vulnerabilidades de segurança no código.
+  - Apoiar a equipe de desenvolvimento com boas práticas e feedbacks contínuos.
 
 #### Comunicação interna
 
 ##### Canais utilizados para comunicação:
 
-- Reuniões realizadas via Discord
-- Alinhamentos pontuais realizados via WhatsApp
-- ...
+- Reuniões pesenciais (diária/semanal).
+- Alinhamentos pontuais realizados via WhatsApp.
 
 ##### Reuniões e periodicidade
 
-- **Reunião (ex.: Reunião de planejamento):** Com o objetivo de [objetivo] será realizada à cada [período de tempo]
+- *Reunião diária* - Realizada todos os dias úteis, com duração de até 15 minutos. Objetivo: compartilhar andamento, identificar impedimentos e alinhar as próximas tarefas.
+- *Reunião de Alinhamento Semanal* – Realizada uma vez por semana, com duração média de 1 hora. Objetivo: revisar entregas, alinhar prioridades e atualizar o status geral do projeto.
 
 #### Distribuição de tarefas
 
-Descrever como as tarefas são priorizadas e atribuídas.
+- As tarefas foram definidas e distribuidas de acordo com a entrega da versão 1.0 (MVP) do projeto, focando inicialmente nas entregas das funcionalidades principais para o usuário.
 
 #### Documentação e rastreabilidade
 
-Descrever como os documentos serão mantidos atualizados, como o repositório será organizado, e como evidências serão registradas.
+- Todos os documentos do projeto (casos de uso, requisitos, reports, styleguide etc.) serão mantidos em formato Markdown e pastas dentro do repositório no GitHub.
+
+- Alterações deverão ser realizadas por meio de pull requests, garantindo versionamento e histórico de mudanças.
+
+- A nomenclatura utilizada para identificação das alterações nos commits deverá conter o ID da tarefa de acordo com o card do Trello.
+
+- Cada atualização deve conter uma descrição clara no commit, indicando o que foi modificado.
+
 
 #### Integração de feedbacks
 
