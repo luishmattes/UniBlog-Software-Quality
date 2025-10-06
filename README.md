@@ -296,7 +296,7 @@ Detalhar o cronograma do projeto utilizando ferramentas visuais de preferência 
 
 <h6 style="color: red;">AULA 05</h6>
 
-O detalhamento completo de como será realizada a gestão de qualidade do projeto pode ser encontrado no [Plano de Garantia de Qualidade de Software (PGQS)](https://www.example.com/).
+O detalhamento completo de como será realizada a gestão de qualidade do projeto pode ser encontrado no [Plano de Garantia de Qualidade de Software (PGQS)](https://github.com/luishmattes/UniBlog-Software-Quality/blob/3e1f853fb503d6a9a32865614aa3fe5e85b799c7/Arquivos/Plano%20de%20Garantia%20de%20Qualidade%20de%20Software%20(PGQS).md).
 
 ---
 
