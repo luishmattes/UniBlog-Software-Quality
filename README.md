@@ -270,7 +270,8 @@ Somente após esses pontos, a tarefa poderá ser movida para a coluna **Concluí
 
 | Atividade | Data proposta da entrega | Status | Data da conclusão |
 |------------|--------------------------|---------|--------------------|
-| Cadastro/Login de Usuário | 10/11/2025 | ✅ Concluído | 09/11/2025 |
+| HIST - Feed |-|🔄 Em andamento| -|
+| Cadastro/Login de Usuário | 10/11/2025 | 🔄 Em andamento | 09/11/2025 |
 | Publicação de Postagens | 15/11/2025 | 🔄 Em andamento | - |
 | Interação (Curtir, Comentar, Compartilhar) | 20/11/2025 | ⏳ Pendente | - |
 | Gerenciamento de Perfil | 25/11/2025 | ⏳ Pendente | - |
