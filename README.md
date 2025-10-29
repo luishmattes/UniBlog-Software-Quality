@@ -270,7 +270,16 @@ Somente após esses pontos, a tarefa poderá ser movida para a coluna **Concluí
 
 | Atividade | Data proposta da entrega | Status | Data da conclusão |
 |------------|--------------------------|---------|--------------------|
-| HIST - Feed |-|🔄 Em andamento| -|
+| Perfil -  Criar página de perfil do usuário/comunidade |-|🔄 Em andamento| - |
+| Perfil - (RNF01) Interface responsiva - Estilizar layout do perfil | - |🔄 Em andamento | - |
+| Perfil - Adicionar paginação ou scroll infinito para a timeline | - |🔄 Em andamento | - |
+| Perfil - Criar componente para listar postagens do usuário no perfil | - |🔄 Em andamento | - |
+| Perfil - Criar componente para listar postagens do usuário no perfil | - |🔄 Em andamento | - |
+| Perfil - Criar componente para edição do perfil (Altera foto e descrição) | - |🔄 Em andamento | - |
+| Project - Configurando Workflow | - |🔄 Em andamento | - |
+| 
+| 
+| 
 | Cadastro/Login de Usuário | 10/11/2025 | 🔄 Em andamento | 09/11/2025 |
 | Publicação de Postagens | 15/11/2025 | 🔄 Em andamento | - |
 | Interação (Curtir, Comentar, Compartilhar) | 20/11/2025 | ⏳ Pendente | - |
