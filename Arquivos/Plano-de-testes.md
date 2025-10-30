@@ -14,7 +14,7 @@ Os testes cobrem as principais funcionalidades do sistema, incluindo:
 - Painel administrativo e controle de usuários  
 
 ---
-## 🗓️ CRONOGRAMA de testes 
+## 🗓️ CRONOGRAMA DE TESTES
 
 ### 🗓️ Acompanhamento de Testes
 
