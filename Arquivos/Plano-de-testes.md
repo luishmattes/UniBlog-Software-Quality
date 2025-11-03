@@ -18,30 +18,30 @@ Os testes cobrem as principais funcionalidades do sistema, incluindo:
 
 ### 🗓️ Acompanhamento de Testes
 
-| Atividade | Data proposta da entrega | Status | Data da conclusão | Observação |
-|------------|--------------------------|---------|--------------------|
-| Perfil -  Criar página de perfil do usuário/comunidade |-|🔄 Em andamento| - | |
-| Perfil - (RNF01) Interface responsiva - Estilizar layout do perfil | - |🔄 Em andamento | - | |
-| Perfil - Adicionar paginação ou scroll infinito para a timeline | - |🔄 Em andamento | - | |
-| Perfil - Criar componente para listar postagens do usuário no perfil | - |🔄 Em andamento | - | |
-| Perfil - Criar componente para listar postagens do usuário no perfil | - |🔄 Em andamento | - | |
-| Perfil - Criar componente para edição do perfil (Altera foto e descrição) | - |🔄 Em andamento | - | |
-| Project - Configurando Workflow | - |🔄 Em andamento | - | |
-| Desenvolver a tela do feed onde as publicações ficarão visiveis| - |🔄 Em andamento | - | |
-| (RF02) Publicações - Criar tela de formulário para nova publicação (Título, conteúdo, upload de imagens ou anexos). | - |🔄 Em andamento | - | |
-| Integrar frontend com a API de criação de post | - |🔄 Em andamento | - | |
-| Exibir pré-visualização da publicação antes de postar | - |🔄 Em andamento | - | |
-| Adicionar validações e feedbacks visuais (Mensagens de erro/sucesso) | - |🔄 Em andamento | - | |
-| Implementar tratamento de erros (imagem muito grande, formato inválido) | - |🔄 Em andamento | - | |
-| Testes do fluxo de postagens simulando postagens reais. | - |🔄 Em andamento | - | |
-| (RNF01) Interface responsiva - Estilizar layout de publicações e feed. | - |🔄 Em andamento | - | |
-| NavBar para Busca | - |🔄 Em andamento | - | |
-| NavBar para Notificações | - |🔄 Em andamento | - | |
-| Nav Bar para Profile | - |🔄 Em andamento | - | |
-| NavBar Styleshet | - |🔄 Em andamento | - | |
-| Aparecer todas as publicações em ordem de postagem mais recente | - |🔄 Em andamento | - | |
-| respeitar layout de cores e fontes do figma | - |🔄 Em andamento | - | |
-| Perfil - Realizar testes dos fluxos > Criar post > aparece no histórico de perfil e Compartilhar posts > aparece no histórico de perfil. | - |🔄 Em andamento | - | |
+| Atividade | Data proposta da entrega | Status | Data da conclusão   | Observação |
+|------------|--------------------------|---------|-----------------------------|---|
+| Perfil -  Criar página de perfil do usuário/comunidade |-|🔄 Em andamento| - | ||
+| Perfil - (RNF01) Interface responsiva - Estilizar layout do perfil | - |🔄 Em andamento | - | ||
+| Perfil - Adicionar paginação ou scroll infinito para a timeline | - |🔄 Em andamento | - | ||
+| Perfil - Criar componente para listar postagens do usuário no perfil | - |🔄 Em andamento | - | ||
+| Perfil - Criar componente para listar postagens do usuário no perfil | - |🔄 Em andamento | - | ||
+| Perfil - Criar componente para edição do perfil (Altera foto e descrição) | - |🔄 Em andamento | - | ||
+| Project - Configurando Workflow | - |🔄 Em andamento | - | ||
+| Desenvolver a tela do feed onde as publicações ficarão visiveis| - |🔄 Em andamento | - | ||
+| (RF02) Publicações - Criar tela de formulário para nova publicação (Título, conteúdo, upload de imagens ou anexos). | - |🔄 Em andamento | - | ||
+| Integrar frontend com a API de criação de post | - |🔄 Em andamento | - | ||
+| Exibir pré-visualização da publicação antes de postar | - |🔄 Em andamento | - | ||
+| Adicionar validações e feedbacks visuais (Mensagens de erro/sucesso) | - |🔄 Em andamento | - | ||
+| Implementar tratamento de erros (imagem muito grande, formato inválido) | - |🔄 Em andamento | - | ||
+| Testes do fluxo de postagens simulando postagens reais. | - |🔄 Em andamento | - | ||
+| (RNF01) Interface responsiva - Estilizar layout de publicações e feed. | - |🔄 Em andamento | - | ||
+| NavBar para Busca | - |🔄 Em andamento | - | ||
+| NavBar para Notificações | - |🔄 Em andamento | - | ||
+| Nav Bar para Profile | - |🔄 Em andamento | - | ||
+| NavBar Styleshet | - |🔄 Em andamento | - | ||
+| Aparecer todas as publicações em ordem de postagem mais recente | - |🔄 Em andamento | - | ||
+| respeitar layout de cores e fontes do figma | - |🔄 Em andamento | - | ||
+| Perfil - Realizar testes dos fluxos > Criar post > aparece no histórico de perfil e Compartilhar posts > aparece no histórico de perfil. | - |🔄 Em andamento | - | ||
 | Perfil - Adicionar validações (descrição com limite de caracteres, formato da imagem). | - |🔄 Em andamento | - | |
 | Perfil - Exibir estatísticas simples (Número de posts, curtidas recebidas). | - |🔄 Em andamento | - | |
 | Backlog - Envio de notificações | - |🔄 Em andamento | - | |
