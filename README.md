@@ -351,7 +351,7 @@ O detalhamento completo de como será realizada a gestão de qualidade do projet
 
 <h6 style="color: red;">AULA 07</h6>
 
-O detalhamento completo da arquitetura do projeto pode ser encontrado no [Documento de Arquitetura de Software (DAS)](https://www.example.com/).
+O detalhamento completo da arquitetura do projeto pode ser encontrado no [Documento de Arquitetura de Software (DAS)](https://github.com/luishmattes/UniBlog-Software-Quality/blob/480233d27c7bac879159a3f691e8b3555a6d782c/Arquivos/Documentacao-Estrutura-do-Projeto.md).
 
 ---
 
