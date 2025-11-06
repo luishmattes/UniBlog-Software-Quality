@@ -65,8 +65,6 @@ O UniBlog surge como uma plataforma digital voltada para o ambiente acadêmico, 
 
 ## 🏗️ ESCOPO
 
-<h6 style="color: red;">AULA 04</h6>
-
 **📌 O detalhamento completo dos requisitos pode ser encontrado no [Documento de Requisitos (DR)](https://github.com/luishmattes/UniBlog-Software-Quality/blob/d46d64e85f28bff8aeba754d7a98fb3d1665c32e/Arquivos/Requisitos-UniBlog.md).**
 
 
@@ -266,46 +264,27 @@ Somente após esses pontos, a tarefa poderá ser movida para a coluna **Concluí
 
 ## 🗓️ CRONOGRAMA
 
-### 🗓️ Acompanhamento de Entregas
+### 🗓️ Acompanhamento de Entregas (Desenvolvimento)
 
 | Atividade | Data proposta da entrega | Status | Data da conclusão |
 |------------|--------------------------|---------|--------------------|
-| Perfil -  Criar página de perfil do usuário/comunidade |-|🔄 Em andamento| - |
-| Perfil - (RNF01) Interface responsiva - Estilizar layout do perfil | - |🔄 Em andamento | - |
-| Perfil - Adicionar paginação ou scroll infinito para a timeline | - |🔄 Em andamento | - |
-| Perfil - Criar componente para listar postagens do usuário no perfil | - |🔄 Em andamento | - |
-| Perfil - Criar componente para listar postagens do usuário no perfil | - |🔄 Em andamento | - |
-| Perfil - Criar componente para edição do perfil (Altera foto e descrição) | - |🔄 Em andamento | - |
-| Project - Configurando Workflow | - |🔄 Em andamento | - |
-| Desenvolver a tela do feed onde as publicações ficarão visiveis| - |🔄 Em andamento | - |
-| (RF02) Publicações - Criar tela de formulário para nova publicação (Título, conteúdo, upload de imagens ou anexos). | - |🔄 Em andamento | - |
-| Integrar frontend com a API de criação de post | - |🔄 Em andamento | - |
-| Exibir pré-visualização da publicação antes de postar | - |🔄 Em andamento | - |
-| Adicionar validações e feedbacks visuais (Mensagens de erro/sucesso) | - |🔄 Em andamento | - |
-| Implementar tratamento de erros (imagem muito grande, formato inválido) | - |🔄 Em andamento | - |
-| Testes do fluxo de postagens simulando postagens reais. | - |🔄 Em andamento | - |
-| (RNF01) Interface responsiva - Estilizar layout de publicações e feed. | - |🔄 Em andamento | - |
-| NavBar para Busca | - |🔄 Em andamento | - |
-| NavBar para Notificações | - |🔄 Em andamento | - |
-| Nav Bar para Profile | - |🔄 Em andamento | - |
-| NavBar Styleshet | - |🔄 Em andamento | - |
-| Aparecer todas as publicações em ordem de postagem mais recente | - |🔄 Em andamento | - |
-| respeitar layout de cores e fontes do figma | - |🔄 Em andamento | - |
-| Perfil - Realizar testes dos fluxos > Criar post > aparece no histórico de perfil e Compartilhar posts > aparece no histórico de perfil. | - |🔄 Em andamento | - |
-| Perfil - Adicionar validações (descrição com limite de caracteres, formato da imagem). | - |🔄 Em andamento | - |
-| Perfil - Exibir estatísticas simples (Número de posts, curtidas recebidas). | - |🔄 Em andamento | - |
-| Backlog - Envio de notificações | - |🔄 Em andamento | - |
-| Backlog - Gerenciamento de eventos/grupos | - |🔄 Em andamento | - |
-| Backlog - Criar layout para o painel (sidebar). | - |🔄 Em andamento | - |
-| Backlog - Configuração do ambiente de produção | - |🔄 Em andamento | - |
-| Backlog - Documentação de uso | - |🔄 Em andamento | - |
-| Backlog - Fazer Pagina de Busca | - |🔄 Em andamento | - |
-| Backlog - Comunicação com Backend | - |🔄 Em andamento | - |
-| Backlog - Buscar por nome de perfil | - |🔄 Em andamento | - |
-| Backlog - Buscar por tags de posts | - |🔄 Em andamento | - |
-| Backlog - Perfil - Foto de Perfil | - |🔄 Em andamento | - |
+| Perfil -  Criar página de perfil do usuário/comunidade |15/09/2025| ✅ Concluído | 01/10/2025 |
+| Perfil - (RNF01) Interface responsiva - Estilizar layout do perfil | 15/09/2025 |✅ Concluído | 05/10/2025 |
+| Perfil - Adicionar paginação ou scroll infinito para a timeline | 15/09/2025 |✅ Concluído | 05/10/2025 |
+| Perfil - Criar componente para listar postagens do usuário no perfil | 15/09/2025 |✅ Concluído | 05/10/2025 |
+| Perfil - Criar componente para edição do perfil (Altera foto e descrição) | 15/09/2025 |✅ Concluído | 05/10/2025 |
+| Perfil - Adicionar validações (descrição com limite de caracteres, formato da imagem). | 24/11/2025 |⏳ **Pendente** | - |
+| Perfil - Exibir estatísticas simples (Número de posts, curtidas recebidas). | 24/11/2025 |🔄 Em andamento | - |
+| - | - | - | - |
+| Backlog - Envio de notificações | *Versão 2.0 |⏳ **Pendente** | - |
+| Backlog - Gerenciamento de eventos/grupos | Versão 2.0 |⏳ **Pendente** | - |
+| Backlog - Criar layout para o painel (sidebar). | Versão 2.0 |⏳ **Pendente** | - |
+| Backlog - Configuração do ambiente de produção | Versão 2.0 |⏳ **Pendente** | - |
+| Backlog - Documentação de uso | Versão 2.0 |⏳ **Pendente** | - |
+| Backlog - Fazer Pagina de Busca | Versão 2.0 |⏳ **Pendente** | - |
+| Backlog - Buscar por nome de perfil | Versão 2.0 |⏳ **Pendente** | - |
+| Backlog - Buscar por tags de posts | Versão 2.0 |⏳ **Pendente** | - |
 | Backlog - Publicação da aplicação | - |🔄 Em andamento | - |
-
 
 ---
 
@@ -314,6 +293,10 @@ Somente após esses pontos, a tarefa poderá ser movida para a coluna **Concluí
 - 🔄 **Em andamento**
 - ⏳ **Pendente**
 
+
+### 🗓️ Cronograma de Testes:
+
+[🧪 Plano de Testes de Qualidade – UniBlog](https://github.com/luishmattes/UniBlog-Software-Quality/blob/f2e80716433324a9ecd82fb85ac4ca1829a66914/Arquivos/Plano-de-testes.md).
 
 ---
 
@@ -341,15 +324,11 @@ Somente após esses pontos, a tarefa poderá ser movida para a coluna **Concluí
 
 ## ☑️ GARANTIA DA QUALIDADE
 
-<h6 style="color: red;">AULA 05</h6>
-
 O detalhamento completo de como será realizada a gestão de qualidade do projeto pode ser encontrado no [Plano de Garantia de Qualidade de Software (PGQS)](https://github.com/luishmattes/UniBlog-Software-Quality/blob/3e1f853fb503d6a9a32865614aa3fe5e85b799c7/Arquivos/Plano%20de%20Garantia%20de%20Qualidade%20de%20Software%20(PGQS).md).
 
 ---
 
 ## 📐 ARQUITETURA
-
-<h6 style="color: red;">AULA 07</h6>
 
 O detalhamento completo da arquitetura do projeto pode ser encontrado no [Documento de Arquitetura de Software (DAS)](https://github.com/luishmattes/UniBlog-Software-Quality/blob/480233d27c7bac879159a3f691e8b3555a6d782c/Arquivos/Documentacao-Estrutura-do-Projeto.md).
 
