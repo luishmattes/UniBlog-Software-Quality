@@ -21,7 +21,8 @@ O **Plano de Software** (PS) tem como propósito organizar e orientar o desenvol
 * **Repositório Git:** [Link para o repositório](https://github.com/NayanBecker/UniBlog)
 * **Data de início:** 04 de agosto de 2025
 * **Previsão de término:** 08 de dezembro de 2025
-* **Versão do PS:** v2025.08.18
+* **Versão do PS:** v2025.08.18 (1.0)
+*  **Links importantes:** [Links](https://github.com/luishmattes/UniBlog-Software-Quality/blob/e879145fd64e36a2b097fd61366f4bb99b6aa3a2/Arquivos/Links.md)
 
 ---
 
@@ -268,29 +269,29 @@ Somente após esses pontos, a tarefa poderá ser movida para a coluna **Concluí
 
 | Atividade | Data proposta da entrega | Status | Data de início | Data da conclusão |
 |------------|--------------------------|---------|----------------|-------------------|
-| Perfil -  Criar página de perfil do usuário/comunidade | 15/09/2025 | ✅ Concluído | 01/07/2025 | 01/10/2025 |
-| Perfil - (RNF01) Interface responsiva - Estilizar layout do perfil | 15/09/2025 |✅ Concluído | 01/07/2025 | 05/10/2025 |
-| Perfil - Adicionar paginação ou scroll infinito para a timeline | 15/09/2025 |✅ Concluído | 01/07/2025 | 05/10/2025 |
-| Perfil - Criar componente para listar postagens do usuário no perfil | 15/09/2025 |✅ Concluído | 01/07/2025 | 05/10/2025 |
-| Perfil - Criar componente para edição do perfil (Altera foto e descrição) | 15/09/2025 |✅ Concluído | 01/07/2025 | 05/10/2025 |
+| Perfil -  Criar página de perfil do usuário/comunidade | 15/09/2025 | ✅ Concluído | 18/08/2025 | 01/10/2025 |
+| Perfil - (RNF01) Interface responsiva - Estilizar layout do perfil | 15/09/2025 |✅ Concluído | 18/08/2025 | 05/10/2025 |
+| Perfil - Adicionar paginação ou scroll infinito para a timeline | 15/09/2025 |✅ Concluído | 18/08/2025 | 05/10/2025 |
+| Perfil - Criar componente para listar postagens do usuário no perfil | 15/09/2025 |✅ Concluído | 18/08/2025 | 05/10/2025 |
+| Perfil - Criar componente para edição do perfil (Altera foto e descrição) | 15/09/2025 |✅ Concluído | 18/08/2025 | 05/10/2025 |
 | Perfil - Exibir estatísticas simples (Número de posts, curtidas recebidas). | 24/11/2025 |🔄 Em andamento | 01/11/2025 | - |
 | Cadastro e Login de Usuários - Criação de tela de seleção de Perfis | - | - | 01/07/2025 | - |
-| Cadastro e Login de Usuários - Criação de tela de seleção - Validação de PERFIS por usuário autenticado | - | - | 01/07/2025 | - |
-| Cadastro e Login de Usuários - Criação de tela de seleção - Inserção de novos PERFIS | - | - | 01/07/2025 | - |
-| Cadastro e Login de Usuários - (RF01) Autenticação segura - Criar tela de Login e Cadastro | - | - | 01/07/2025 | - |
-| Cadastro e Login de Usuários - (RFN04) Criptografia de dados sensíveis - Integrar frontend com API | - | - | 01/07/2025 | - |
-| Cadastro e Login de Usuários - Redirecionar usuário autenticado para o feed. | - | - | 01/07/2025 | - |
-| Publicação de Postagens e Conteúdos - Desenvolver a tela do feed | - | - | 01/07/2025 | - |
-| Publicação de Postagens e Conteúdos - (RF02) Publicações - Criar tela de formulário | - | - | 01/07/2025 | - |
-| Publicação de Postagens e Conteúdos - Integrar frontend com a API de criação de post | - | - | 01/07/2025 | - |
-| Publicação de Postagens e Conteúdos - Exibir pré-visualização da publicação | - | - | 01/07/2025 | - |
-| Publicação de Postagens e Conteúdos - (RNF01) Interface responsiva - Estilizar layout | - | - | 01/07/2025 | - |
-| Interações com Posts - Integrar frontend com a API de interações | - | - | 01/07/2025 | - |
-| Interações com Posts - (RF03) Comentários - Criar componente nos posts | - | - | 01/07/2025 | - |
-| Interações com Posts - (RF03) Comentários - Criar formulário de novo comentário | - | - | 01/07/2025 | - |
-| Interações com Posts - (RF04) Curtidas - Criar botão de curtir/descurtir | - | - | 01/07/2025 | - |
-| Interações com Posts - (RF04) Curtidas - Atualizar contagem em tempo real | - | - | 01/07/2025 | - |
-| Interações com Posts - (RNF01) Interface responsiva - Estilizar layout | - | - | 01/07/2025 | - |
+| Cadastro e Login de Usuários - Criação de tela de seleção - Validação de PERFIS por usuário autenticado | - | - | 18/08/2025 | - |
+| Cadastro e Login de Usuários - Criação de tela de seleção - Inserção de novos PERFIS | - | - | 18/08/2025 | - |
+| Cadastro e Login de Usuários - (RF01) Autenticação segura - Criar tela de Login e Cadastro | - | - | 18/08/2025 | - |
+| Cadastro e Login de Usuários - (RFN04) Criptografia de dados sensíveis - Integrar frontend com API | - | - | 18/08/2025 | - |
+| Cadastro e Login de Usuários - Redirecionar usuário autenticado para o feed. | - | - | 18/08/2025 | - |
+| Publicação de Postagens e Conteúdos - Desenvolver a tela do feed | - | - | 18/08/2025 | - |
+| Publicação de Postagens e Conteúdos - (RF02) Publicações - Criar tela de formulário | - | - | 18/08/2025 | - |
+| Publicação de Postagens e Conteúdos - Integrar frontend com a API de criação de post | - | - | 18/08/2025 | - |
+| Publicação de Postagens e Conteúdos - Exibir pré-visualização da publicação | - | - | 18/08/2025 | - |
+| Publicação de Postagens e Conteúdos - (RNF01) Interface responsiva - Estilizar layout | - | - | 18/08/2025 | - |
+| Interações com Posts - Integrar frontend com a API de interações | - | - | 18/08/2025 | - |
+| Interações com Posts - (RF03) Comentários - Criar componente nos posts | - | - | 18/08/2025 | - |
+| Interações com Posts - (RF03) Comentários - Criar formulário de novo comentário | - | - | 18/08/2025 | - |
+| Interações com Posts - (RF04) Curtidas - Criar botão de curtir/descurtir | - | - | 18/08/2025 | - |
+| Interações com Posts - (RF04) Curtidas - Atualizar contagem em tempo real | - | - | 18/08/2025 | - |
+| Interações com Posts - (RNF01) Interface responsiva - Estilizar layout | - | - | 18/08/2025 | - |
 | Backlog - Envio de notificações | *Versão 2.0 |⏳ **Pendente** | - | - |
 | Backlog - Gerenciamento de eventos/grupos | Versão 2.0 |⏳ **Pendente** | - | - |
 | Backlog - Criar layout para o painel (sidebar). | Versão 2.0 |⏳ **Pendente** | - | - |
