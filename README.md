@@ -377,6 +377,9 @@ Recursos de hardware e/ou ambiente que serão utilizados para desenvolvimento do
 | **Containerização** | **Docker** | Facilita a execução padronizada em qualquer ambiente. |
 | **Controle de Versão** | **Git + GitHub** | Versionamento e documentação do código-fonte. |
 
+- Repositório de Desenvolvimento: [Dev] (https://github.com/NayanBecker/UniBlog)
+- Repositório de Produção: [Prod] (https://github.com/luishmattes/UniBlog-Software-Quality)
+
 ---
 
 
@@ -384,7 +387,7 @@ Recursos de hardware e/ou ambiente que serão utilizados para desenvolvimento do
 
 Recursos de software e ferramentas que serão utilizados para desenvolvimento do projeto.
 
-###🧩 Integração Entre os Componentes
+### 🧩 Integração Entre os Componentes
 
 [React + Expo]  ➡️  consome API REST  ➡️  [Node.js Backend]  ➡️  [PostgreSQL + MinIO]
 
