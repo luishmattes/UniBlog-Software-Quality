@@ -365,11 +365,35 @@ Listar riscos reais ou potenciais e ações práticas que serão aplicadas para 
 
 ### Hardware/ambiente
 
-Detalhar os recursos de hardware e/ou ambiente que serão utilizados para desenvolvimento do projeto.
+Recursos de hardware e/ou ambiente que serão utilizados para desenvolvimento do projeto.
+
+### 🖥️ Ambiente
+
+| Camada | Tecnologia | Descrição |
+|--------|-------------|------------|
+| **Banco de Dados** | **PostgreSQL** | Banco relacional utilizado para armazenar dados estruturados. |
+| **Armazenamento de Arquivos** | **MinIO** | Sistema de armazenamento de mídia (imagens, anexos) compatível com S3. |
+| **Containerização** | **Docker** | Facilita a execução padronizada em qualquer ambiente. |
+| **Controle de Versão** | **Git + GitHub** | Versionamento e documentação do código-fonte. |
+
+---
+
 
 ### Softwares/ferramentas
 
-Detalhar os recursos de software e/ou ferramentas que serão utilizados para desenvolvimento do projeto.
+Recursos de software e ferramentas que serão utilizados para desenvolvimento do projeto.
+
+###🧩 Integração Entre os Componentes
+
+[React + Expo]  ➡️  consome API REST  ➡️  [Node.js Backend]  ➡️  [PostgreSQL + MinIO]
+
+- O frontend envia requisições HTTP para o backend (login, posts, comentários, etc.).
+
+- O backend consulta e grava dados no PostgreSQL.
+
+- Arquivos e imagens são enviados e armazenados no MinIO.
+
+- O Docker Compose orquestra os serviços para que funcionem juntos localmente.
 
 ---
 
