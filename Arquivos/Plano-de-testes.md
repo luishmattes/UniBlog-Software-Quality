@@ -1,87 +1,87 @@
 # 🧪 Plano de Testes de Qualidade – UniBlog
 
 ## 1. Objetivo
-Garantir que o sistema de login funcione conforme os requisitos, validando autenticação, segurança e usabilidade.							
+Garantir que o sistema funcione desdeconforme os requisitos, validando autenticação, segurança e usabilidade.						
+
 ---
 
 ## 2. Escopo
 Os testes cobrem as principais funcionalidades do sistema, incluindo:
 
-✅ Cadastro e login de usuários.
+✅ Criação de postagens.
 
-✅ Criação e publicação de postagens.
+✅ Publicação de uma Postagem com anexos.
 
-✅ Perfis personalizados com foto e biografia.
+✅ Visualização de posts em formato de time line.
 
-❌ Testes de carga.	
+✅ Login com credenciais válidas.							
 
-❌ Publicação de posts com textos e imagens.
+❌ Integração com redes sociais.
+
+❌ Testes de performance ou carga	.											
 
 ---
-## 3. 🗓️ CRONOGRAMA DE TESTES
 
-### 🗓️ Acompanhamento de Testes
+## 3. 🗓️ Cronograma
 
 | Atividade | Inicio | Fim | Observação |
-|------------|--------------------------|---------|-----------------------------|
-
-
----
-
-📘 **Legenda de Status:**
-- ✅ **Concluído**
-- 🔄 **Em andamento**
-- ⏳ **Pendente**
-
+|------------|--------------|---------|-----------|
+|Preparação de casos| 27/10/2025 |	03/11/2025 |  |
+|Execução dos testes | 04/11/2025	| 10/11/2025 |  |
+|Relatório final | 12/11/2025 |	12/11/2025 |  |
 
 ---
+
 ## 4. Critérios de Aceitação
-- 100% dos testes críticos devem ser aprovados.  
-- Nenhum erro de alta gravidade deve permanecer pendente.  
-- As funcionalidades devem atender aos requisitos funcionais e não funcionais.  
+| ID	| Critério	|	Prioridade |
+|-----|-----------|------------|
+| CA-01	| O sistema deve permitir login com e-mail e senha válidos.| Alta |
+| CA-02	| O sistema deve permitir a publicação de postagens. | Alta |
+| CA-03	| O sistema deve permitir a visualização de outras publicações em formato time line. | Alta |
+| CA-04	| O sistema deve permitir compartilhar anexos,(fotos, videos), durante a criação da postagem. | Alta |
 
 ---
 
 ## 5. Estratégia
 | Tipo de Teste | Descrição | Responsável |
 |----------------|------------|--------------|
-| **Teste Funcional** | Verifica se cada funcionalidade atende aos requisitos definidos. | QA |
-| **Teste de Integração** | Valida a comunicação entre frontend (React) e backend. | QA + Desenvolvedor |
-| **Teste de Interface (UI/UX)** | Avalia a usabilidade, layout e responsividade. | QA |
-| **Teste de Regressão** | Garante que novas alterações não afetem funcionalidades anteriores. | QA |
-| **Teste de Desempenho** | Mede tempo de resposta e desempenho da aplicação. | QA |
+| Testes funcionais | Validação de campos, mensagens de erro, fluxo de login.	| QA |
+| Testes de segurança | SQL injection, armazenamento de senha criptografada. | QA + Desenvolvedor |
+| Testes de usabilidade | Experiência do usuário (UI/UX).	 | QA |
+
 ---
+
 ## 6. Casos de Teste
+|   ID   |       Caso de Teste       |       Pré-condições       |         Passos         |       Dados de Entrada        |     Resultado Esperado     |     Critério de Aceitação     |     Prioridade     |     Status     |     Evidência     |
+|--------|---------------------------|---------------------------|------------------------|-------------------------------|----------------------------|-------------------------------|--------------------|----------------|-------------------|
+| CT-01 | Login com credenciais válidas | Usuário cadastrado: usuario@teste.com, senha: Teste@123 | "1. Acessar página de login. 2. Preencher e-mail e senha. 3. Clicar em ""Entrar""." | "E-mail: usuario@teste.com Senha: Teste@123" | Redireciona para o feed. | CA-01 | Alta | ✅ Aprovado | [Link] |
+| CT-02 | Publicar Postagem | Usuário autenticado. | "1. Acessar a aba de criação de posts. 2. Preenche os campos Titulo e Comentario. 3. Clicar em ""adicionar postagem ao feed""." | "Titulo e comentario" | Post é exibido no feed | CA-02 | Alta | ✅ Aprovado | [Link] |
+| CT-03 | Visualizar time line  | Posts existentes | "1. Fazer login na aplicação. 2. Visualizar o feed em formato time line." | Login do usuario | Visualização de postagens em formato time line onde os Comentários aparecem abaixo dos posts. | CA-03 | Alta | ✅ Aprovado | [Link] |
+| CT-04 |  Publicar Postagem com anexos | Usuário autenticado. | "1. Acessa a aba de criação de posts. 2. Preenche os campos Titulo e Comentario. 3. Clica no icone de anexos. 4.Adiciona os anexos desejados "fotos ou videos". 5. Clicar em ""adicionar postagem ao feed""." | "Titulo, comentario e anexos" | Postagem com o anexo inserida no feed.  | CA-04 | Alta | ✅ Aprovado | [Link] |
 
-| ID | Funcionalidade | Pré-condição | Ação | Resultado Esperado | Status |
-|----|----------------|---------------|-------|--------------------|---------|
-| CT01 | Login de Usuário | Usuário cadastrado | Inserir e-mail e senha válidos | Sistema redireciona para o feed | ✅ |
-| CT02 | Publicar Postagem | Usuário autenticado | Criar postagem com título e imagem | Post é exibido no feed | 🔄 |
-| CT03 | Comentar Postagem | Post existente | Inserir comentário e enviar | Comentário aparece abaixo do post | ⏳ |
-| CT04 | Curtir Postagem | Post existente | Clicar em "Curtir" | Ícone muda e contador incrementa | ⏳ |
-| CT05 | Editar Perfil | Usuário autenticado | Alterar nome e salvar | Dados atualizados no perfil | ⏳ |
-
-
+❌ Não Executado.
+⚠️ Falhou.
+✅ Aprovado.
 
 ---
 ## 7.Recursos e Ações 
 
 | Risco |Ação Preventiva|
-|--|--|
+|-------|---------------|
+| Ambiente instável. | Validar ambiente antes dos testes.	|
+| Dados de teste inconsistentes. | Verificar dados e possivelmente gerar cópia do banco de produção. |
 
 ---
 
-## 7. Riscos e Ações
-- **Jest** – Testes unitários em React  
-- **Postman / Insomnia** – Testes de integração com API  
-- **GitHub Actions** – Execução automática de pipeline em cada push   
-
-
+## 8. AMBIENTE		
+		
+|Navegador | Chrome V. 139.0.7258.154/.155|
+|------|-------------------------------|
+|     SO     | Windows 11|
+|    Dispositivo     | Desktop|
+|    Ambiente   | Homologação (URL: [link])|	
 ---
-
-
-
-## 8. Ambiente 
+## 9. Evidencias
 - Evidências dos testes (prints, logs, vídeos) serão armazenadas na pasta:  *Inserir o link do repo*
 
 
