@@ -64,7 +64,13 @@ Os testes cobrem as principais funcionalidades do sistema, incluindo:
 ✅ Aprovado.
 
 ---
-## 7.Recursos e Ações 
+## 7. RECURSOS		
+|	Ferramentas	| Jest, Postman, Cypress.|
+|-----------|-------------------------|
+|	Equipe	| 1 QA, 1 Desenvolvedor para suporte.|
+|	Dados de teste	| Usuários fictícios (ex: usuario@teste.com, senha: Teste@123).|							
+---
+## 8.RISCOS E AÇÕES										
 
 | Risco |Ação Preventiva|
 |-------|---------------|
@@ -73,7 +79,7 @@ Os testes cobrem as principais funcionalidades do sistema, incluindo:
 
 ---
 
-## 8. AMBIENTE		
+## 9. AMBIENTE		
 		
 |Navegador | Chrome V. 139.0.7258.154/.155|
 |------|-------------------------------|
@@ -81,7 +87,7 @@ Os testes cobrem as principais funcionalidades do sistema, incluindo:
 |    Dispositivo     | Desktop|
 |    Ambiente   | Homologação (URL: [link])|	
 ---
-## 9. Evidencias
+## 10. Evidencias
 - Evidências dos testes (prints, logs, vídeos) serão armazenadas na pasta:  *Inserir o link do repo*
 
 
