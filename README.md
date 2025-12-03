@@ -313,7 +313,7 @@ Somente após esses pontos, a tarefa poderá ser movida para a coluna **Concluí
 
 ### 🗓️ Cronograma de Testes:
 
-[🧪 Plano de Testes de Qualidade – UniBlog](https://github.com/luishmattes/UniBlog-Software-Quality/blob/f2e80716433324a9ecd82fb85ac4ca1829a66914/Arquivos/Plano-de-testes.md).
+[🧪 Plano de Testes de Qualidade – UniBlog](https://github.com/luishmattes/UniBlog-Software-Quality/blob/b7fcd6e74bca71f30dc60b0b8fb9f706228af125/Arquivos/Plano-de-testes.md).
 
 ---
 
