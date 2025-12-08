@@ -269,29 +269,31 @@ Somente após esses pontos, a tarefa poderá ser movida para a coluna **Concluí
 
 | Atividade | Data proposta da entrega | Status | Data de início | Data da conclusão |
 |------------|--------------------------|---------|----------------|-------------------|
+| Navegação no App | 08/12/2025 | ✅ Concluído | 18/08/2025 | 07/12/2025 |
 | Perfil -  Criar página de perfil do usuário/comunidade | 15/09/2025 | ✅ Concluído | 18/08/2025 | 01/10/2025 |
 | Perfil - (RNF01) Interface responsiva - Estilizar layout do perfil | 15/09/2025 |✅ Concluído | 18/08/2025 | 05/10/2025 |
 | Perfil - Adicionar paginação ou scroll infinito para a timeline | 15/09/2025 |✅ Concluído | 18/08/2025 | 05/10/2025 |
 | Perfil - Criar componente para listar postagens do usuário no perfil | 15/09/2025 |✅ Concluído | 18/08/2025 | 05/10/2025 |
 | Perfil - Criar componente para edição do perfil (Altera foto e descrição) | 15/09/2025 |✅ Concluído | 18/08/2025 | 05/10/2025 |
 | Perfil - Exibir estatísticas simples (Número de posts, curtidas recebidas). | 24/11/2025 |🔄 Em andamento | 01/11/2025 | - |
-| Cadastro e Login de Usuários - Criação de tela de seleção de Perfis | - | - | 01/07/2025 | - |
-| Cadastro e Login de Usuários - Criação de tela de seleção - Validação de PERFIS por usuário autenticado | - | - | 18/08/2025 | - |
-| Cadastro e Login de Usuários - Criação de tela de seleção - Inserção de novos PERFIS | - | - | 18/08/2025 | - |
-| Cadastro e Login de Usuários - (RF01) Autenticação segura - Criar tela de Login e Cadastro | - | - | 18/08/2025 | - |
-| Cadastro e Login de Usuários - (RFN04) Criptografia de dados sensíveis - Integrar frontend com API | - | - | 18/08/2025 | - |
-| Cadastro e Login de Usuários - Redirecionar usuário autenticado para o feed. | - | - | 18/08/2025 | - |
-| Publicação de Postagens e Conteúdos - Desenvolver a tela do feed | - | - | 18/08/2025 | - |
-| Publicação de Postagens e Conteúdos - (RF02) Publicações - Criar tela de formulário | - | - | 18/08/2025 | - |
-| Publicação de Postagens e Conteúdos - Integrar frontend com a API de criação de post | - | - | 18/08/2025 | - |
-| Publicação de Postagens e Conteúdos - Exibir pré-visualização da publicação | - | - | 18/08/2025 | - |
-| Publicação de Postagens e Conteúdos - (RNF01) Interface responsiva - Estilizar layout | - | - | 18/08/2025 | - |
-| Interações com Posts - Integrar frontend com a API de interações | - | - | 18/08/2025 | - |
-| Interações com Posts - (RF03) Comentários - Criar componente nos posts | - | - | 18/08/2025 | - |
-| Interações com Posts - (RF03) Comentários - Criar formulário de novo comentário | - | - | 18/08/2025 | - |
-| Interações com Posts - (RF04) Curtidas - Criar botão de curtir/descurtir | - | - | 18/08/2025 | - |
-| Interações com Posts - (RF04) Curtidas - Atualizar contagem em tempo real | - | - | 18/08/2025 | - |
-| Interações com Posts - (RNF01) Interface responsiva - Estilizar layout | - | - | 18/08/2025 | - |
+| Cadastro e Login de Usuários - Criação de tela de seleção de Perfis | 08/12/2025 | ✅ Concluído | 18/08/2025 | 07/12/2025 |
+| Cadastro e Login de Usuários - Criação de tela de seleção - Validação de PERFIS por usuário autenticado | 08/12/2025 | ✅ Concluído | 18/08/2025 | 07/12/2025 |
+| Cadastro e Login de Usuários - Criação de tela de seleção - Inserção de novos PERFIS | 08/12/2025 | ✅ Concluído | 18/08/2025 | 07/12/2025 |
+| Cadastro e Login de Usuários - (RF01) Autenticação segura - Criar tela de Login e Cadastro | 08/12/2025 | ✅ Concluído | 18/08/2025 | 07/12/2025 |
+| Cadastro e Login de Usuários - (RFN04) Criptografia de dados sensíveis - Integrar frontend com API | 08/12/2025 | ✅ Concluído | 18/08/2025 | 07/12/2025 |
+| Cadastro e Login de Usuários - Redirecionar usuário autenticado para o feed. | 08/12/2025 | ✅ Concluído | 18/08/2025 | 07/12/2025 |
+| Publicação de Postagens e Conteúdos - Desenvolver a tela do feed | 08/12/2025 | ✅ Concluído | 18/08/2025 | 07/12/2025 |
+| Publicação de Postagens e Conteúdos - (RF02) Publicações - Criar tela de formulário | 08/12/2025 | ✅ Concluído | 18/08/2025 | 07/12/2025 |
+| Publicação de Postagens e Conteúdos - Integrar frontend com a API de criação de post | 08/12/2025 | ✅ Concluído | 18/08/2025 | 07/12/2025 |
+| Publicação de Postagens e Conteúdos - Exibir pré-visualização da publicação | 08/12/2025 | ✅ Concluído | 18/08/2025 | 07/12/2025 |
+| Publicação de Postagens e Conteúdos - (RNF01) Interface responsiva - Estilizar layout | 08/12/2025 | ✅ Concluído | 18/08/2025 | 07/12/2025 |
+| Feed - Aparecer todas as publicações em ordem de postagem mais recente | 08/12/2025 | ✅ Concluído | 18/08/2025 | 07/12/2025 |
+| Interações com Posts - Integrar frontend com a API de interações | 08/12/2025 | ⏳ **Pendente** | - | - |
+| Interações com Posts - (RF03) Comentários - Criar componente nos posts | 08/12/2025 | ⏳ **Pendente** | - | - |
+| Interações com Posts - (RF03) Comentários - Criar formulário de novo comentário | 08/12/2025 | ⏳ **Pendente** | - | - |
+| Interações com Posts - (RF04) Curtidas - Criar botão de curtir/descurtir | 08/12/2025 | ⏳ **Pendente** | - | - |
+| Interações com Posts - (RF04) Curtidas - Atualizar contagem em tempo real | 08/12/2025 | ⏳ **Pendente** | - | - |
+| Interações com Posts - (RNF01) Interface responsiva - Estilizar layout | 08/12/2025 | ⏳ **Pendente** | - | - |
 | Backlog - Envio de notificações | *Versão 2.0 |⏳ **Pendente** | - | - |
 | Backlog - Gerenciamento de eventos/grupos | Versão 2.0 |⏳ **Pendente** | - | - |
 | Backlog - Criar layout para o painel (sidebar). | Versão 2.0 |⏳ **Pendente** | - | - |
