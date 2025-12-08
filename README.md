@@ -403,3 +403,6 @@ Recursos de software e ferramentas que serão utilizados para desenvolvimento do
 
 ---
 
+### Outros
+
+Demais materiais relacionados ao [TPE](https://github.com/luishmattes/UniBlog-Software-Quality/tree/f44dbc742fcd3f745d40bd7fffba37a173692406/Arquivos).
