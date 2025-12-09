@@ -90,6 +90,6 @@ Os testes cobrem as principais funcionalidades do sistema, incluindo:
 |    Ambiente   | Homologação (URL: [link])|	
 ---
 ## 10. Evidencias
-- Evidências dos testes (prints, logs, vídeos) serão armazenadas na pasta:  *Inserir o link do repo*
+- Evidências dos testes (prints, logs, vídeos) serão armazenadas na pasta:  [ link do repositório das evidências](https://github.com/luishmattes/UniBlog-Software-Quality/tree/d2c4c5672208665550e140a636446bcbeee5eba2/Arquivos/Evidencias)
 
 
