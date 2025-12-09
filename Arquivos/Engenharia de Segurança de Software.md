@@ -92,3 +92,8 @@ Descrição: Atacante obtém controle de contas por força bruta, phishing, sess
 
 - Parcerias com serviços de fact-checking.
 -----
+
+
+## Caso de Mau uso
+
+![Caso de Mau Uso](https://raw.githubusercontent.com/luishmattes/UniBlog-Software-Quality/d888efef0fc948f10d148ae44e00bcb6702935a5/Arquivos/Caso%20de%20Mau%20Uso.jpg)
